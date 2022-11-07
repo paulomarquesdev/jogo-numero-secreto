@@ -23,6 +23,10 @@ h1 {
     font-size: 5em;
 }
 
+h2 {
+    font-size: 4em;
+}
+
 h3 {
     font-size: 2em;
     margin-top: 20px;
@@ -41,3 +45,18 @@ h3 {
     margin: 20px;
 }
 
+.btn__play_again {
+    padding: 12px 20px;
+    border: var(--primary-color) solid 1px;
+    background-color: var(--bg-color);
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn__play_again:hover {
+    background-color:#1ea6dc;
+}

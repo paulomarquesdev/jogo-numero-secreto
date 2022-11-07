@@ -5,7 +5,8 @@ document.querySelector("#menor-valor").textContent = minValue;
 document.querySelector('#maior-valor').textContent = maxValue;
 
 const secretNumber = generateRandomNumber();
+console.log(secretNumber)
 
 function generateRandomNumber(){
-    return parseInt(Math.random() * maxValue+1)
-}
+    return parseInt(Math.random() * maxValue+1);
+};
